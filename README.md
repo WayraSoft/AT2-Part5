@@ -11,6 +11,8 @@ Workflow:
 
 Coding Guidelines:
 HTML & CSS - https://www.w3schools.com/html/html5_syntax.asp
+It defines the structure of the web pages.
+
 JavaScript - https://www.w3schools.com/js/js_conventions.asp
 
 UI Requirements:
