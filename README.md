@@ -55,3 +55,7 @@ required (Refer to Assessment document):
   perspective.
 
 •	UI Events: describe the events triggered in HTML / JavaScript
+
+
+Determine the languages used to build the UI. List all the languages used and 
+describe what they are used for (Refer to Assessment document).
