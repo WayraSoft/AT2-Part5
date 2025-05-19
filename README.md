@@ -32,6 +32,7 @@ Software used to create wireframe and prototype:
 - Figma
 
 Create the theme for your UI. Record the colors and font:
+
 <Colour 1>
 Darker Blue: #0D47A1
 
@@ -45,3 +46,12 @@ Deep Emerald: #1B5E20
 font-family: 'Open Sans', Arial, Verdana, sans-serif;
 /* Ensures readable  fonts - Open sans is the open-source web font*/
 
+Describe the content flow / UI Actions / UI Events of each of the UI sections 
+required (Refer to Assessment document):
+
+•	Content flow: Describe the content flow from the user’s perspective.
+
+•	UI Actions: describe the UI actions based on the UI design from the user’s 
+  perspective.
+
+•	UI Events: describe the events triggered in HTML / JavaScript
