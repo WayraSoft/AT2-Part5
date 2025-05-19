@@ -31,4 +31,17 @@ UI Requirements:
 Software used to create wireframe and prototype:
 - Figma
 
+Create the theme for your UI. Record the colors and font:
+<Colour 1>
+Darker Blue: #0D47A1
+
+<Colour 2>
+Light Orange: #FFCA28
+
+<Colour 3>
+Deep Emerald: #1B5E20
+
+<Font>
+font-family: 'Open Sans', Arial, Verdana, sans-serif;
+/* Ensures readable  fonts - Open sans is the open-source web font*/
 
