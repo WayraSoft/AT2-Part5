@@ -55,3 +55,5 @@ required (Refer to Assessment document):
   perspective.
 
 •	UI Events: describe the events triggered in HTML / JavaScript
+
+Test Cases development (check document attached)
