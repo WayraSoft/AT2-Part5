@@ -116,6 +116,11 @@ function addClick() {
     alert("Title must be 50 characters or less!");
     return;
   }
+  // Validate Year (value is a number)
+  if (isNaN(Number(year))) {
+    alert("Year must be a number!");
+    return;
+  }
   // Validate Year (not empty and between 1950 and actual year)
   const currentYear = new Date().getFullYear();
   if (year === "") {
@@ -129,6 +134,11 @@ function addClick() {
   // Validate rating (not empty and between 0.0 and 5.0)
   if (rating === "") {
     alert("Rating is required.");
+    return;
+  }
+  // Validate rating (value is a number)
+  if (isNaN(Number(rating))) {
+    alert("Rating must be a number!");
     return;
   }
   if (Number(rating) < 0.0 || Number(rating) > 5.0) {
@@ -173,10 +183,20 @@ function updateClick() {
     alert("Title must be 50 characters or less.");
     return;
   }
+  // Validate Year (value is a number)
+  if (isNaN(Number(year))) {
+    alert("Year must be a number!");
+    return;
+  }
   // Validate Year (between 1950 and actual year).
   const currentYear = new Date().getFullYear();
   if (Number(year) < 1950 || Number(year) > currentYear) {
     alert("Year must be between 1950 and " + currentYear + ".");
+    return;
+  }
+  // Validate rating (value is a number)
+  if (isNaN(Number(rating))) {
+    alert("Rating must be a number!");
     return;
   }
   // Validate Rating (not empty and between 0.0 and 5.0).
